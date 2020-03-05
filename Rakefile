@@ -10,4 +10,5 @@ task :hola do
 end
 end 
 
-namespace :db do
+namespace :db do 
+  desc 'migrate changes to your database'
